@@ -295,9 +295,9 @@ let langArr={
     "ru":"Исследуйте все подарки",
  },
  "footer1":{
-    "hy":"Մեր հաճախորդները",
-    "en":"Client care",
-    "ru":"Обслуживание клиентов",
+    "hy":"Մեր հաճախորդները <i class='fa-solid fa-angle-down'></i>",
+    "en":"Client care <i class='fa-solid fa-angle-down'></i>",
+    "ru":"Обслуживание клиентов <i class='fa-solid fa-angle-down'></i>",
  },
  "footer1a":{
     "hy":"Կապը մեզ հետ",
@@ -330,9 +330,9 @@ let langArr={
     "ru":"Доставка и возврат",
  },
  "footer2a":{
-    "hy":"Մեր Ընկերությունը",
-    "en":"Our company",
-    "ru":"Наша компания",
+    "hy":"Մեր Ընկերությունը <i class='fa-solid fa-angle-down'></i>",
+    "en":"Our company <i class='fa-solid fa-angle-down'></i>",
+    "ru":"Наша компания <i class='fa-solid fa-angle-down'></i>",
  },
  "footer2b":{
     "hy":"Tiffany-ի աշխարհը",
@@ -365,9 +365,9 @@ let langArr={
     "ru":"Политика веб-сайта",
  },
  "btnf1":{
-    "hy":"Սովորեք Tiffany-ից",
-    "en":"Learn from Tiffany",
-    "ru":"Учитесь у Тиффани",
+    "hy":"Սովորեք Tiffany-ից <i class='fa-solid fa-angle-down'></i>",
+    "en":"Learn from Tiffany <i class='fa-solid fa-angle-down'></i>",
+    "ru":"Учитесь у Тиффани <i class='fa-solid fa-angle-down'></i>",
  },
  "btnf2":{
     "hy":"Եղեք առաջինը, տեղեկացեք նոր հետաքրքիր դիզայնի, խանութի հատուկ միջոցառումների մասին",
@@ -394,25 +394,20 @@ let allLang=["hy","ru","en"];
 let select=document.querySelector(".lang-site");
 select.addEventListener("change",function(){
     let lang=select.value;
-    console.log(lang);
     location.href=window.location.pathname+"#"+lang;
     changeLang()
     location.reload()
 })
 function changeLang(){
     let hash=window.location.hash;
-    console.log(hash);
      hash=hash.substr(1);
-     console.log(hash);
      if(!allLang.includes(hash)){
         location.href=window.location.pathname+"#en";
         location.reload()
      }
 select.value=hash;
 for (let key in langArr){
-    console.log(key);
     let elem=document.querySelector(`[data-lang=${key}]`);
-    console.log(elem);
     if(elem){
     if(elem.tagName=="INPUT"){
         elem.placeholder=langArr[key][hash]
@@ -424,57 +419,12 @@ for (let key in langArr){
 }}
     }
     changeLang()
-    console.log(fName.tagName);
-
-let down=document.querySelector(".aclick");
-let a=document.querySelectorAll(".a");
-function display(){
-   for(let a1 of a){
-if(a1.style.display=="none"){
-      a1.style.display="block";
-      down.innerHTML="Client care <i class='fa-solid fa-chevron-up fa-bounce'></i>"
-   }else{
-      a1.style.display="none";
-      down.innerHTML="Client care <i class='fa-solid fa-chevron-down fa-bounce'></i>"
-   }
-}}
-down.addEventListener("click", display);
-
-let down2=document.querySelector("bclick");
-let b=document.querySelectorAll(".b");
-function display2(){
-   for(let b1 of b){
-if(b1.style.display=="none"){
-      b1.style.display="block";
-      down2.innerHTML="Our Company <i class='fa-solid fa-chevron-up fa-bounce'></i>"
-   }else{
-      b1.style.display="none";
-      down2.innerHTML="Our Company <i class='fa-solid fa-chevron-down fa-bounce'></i>"
-   }
-}}
-down2.addEventListener("click", display2);
-
-let down3=document.querySelector("cclick");
-let c=document.querySelectorAll(".c");
-function display3(){
-   for(let c1 of c){
-if(c1.style.display=="none"){
-      c1.style.display="block";
-      down3.innerHTML="Learn from Tiffany <i class='fa-solid fa-chevron-up fa-bounce'></i>"
-   }else{
-      c1.style.display="none";
-      down3.innerHTML="Learn from Tiffany <i class='fa-solid fa-chevron-down fa-bounce'></i>"
-   }
-}}
-down3.addEventListener("click", display3);
-
-//    for( let a1 of a){
-//    a1.classList.toggle("menuBar");
-//    };
-//    for(let down1 of down){
-//    down1.classList.toggle("menuBar");
-// };
-// for(let up1 of up){
-//    up1.classList.toggle("hidden");
-// }}
-// )
+let btnf1=document.querySelectorAll(".btnf1");
+    let content=document.querySelectorAll(".content");
+    let down=document.querySelectorAll(".fa-angle-down");
+    for(let i=0; i<btnf1.length; i++){
+    btnf1[i].addEventListener("click", function(){
+        content[i].classList.toggle("blockbtn");
+    down[i].classList.toggle("angle_rotate")
+    })
+    }
