@@ -778,6 +778,9 @@ body{
 .four1{
     height: auto;
 }
+    .arr2{
+        display: none;
+    }
 .next, .prev{
     background-color: transparent;
 }
