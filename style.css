@@ -144,6 +144,7 @@ padding: 30px 0;
     height: 400px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 .third1,.third2{
     width: 40%;
@@ -420,9 +421,10 @@ margin-left: 50px;
     margin-top: 50px;
 
 }
-/* .fa-chevron-down{
+.fa-angle-down{
+    float: right;
     display: none;
-} */
+}
 .footer56{
     width: 50%;
     height: 300px;
@@ -501,6 +503,8 @@ h4{
 .hide{
     display: none;
 }
+button{
+    cursor: pointer;
 
 @media screen and (max-width: 982px){
    .menu{
@@ -510,10 +514,11 @@ top: 33px;
 right: 0;
 background-color: #8EDCD5;
 width: 100%;
-
+z-index: 2;    
    }
 ul>li{
     float: none;
+    padding: 0;
 }
 .menuBar{
     display: block;
@@ -554,7 +559,7 @@ ul>li{
     height: 250px;
     margin: 10px;
    }
-   .thitd1,.third2{
+   .third1,.third2{
     margin: 0;
    }
    .third1{
@@ -574,6 +579,7 @@ ul>li{
    } */
    .four{
     overflow: hidden;
+    margin-bottom: 10px;
    }
    .four1{
     width: 1200px;
@@ -848,6 +854,9 @@ flex-wrap: wrap;
 }
 h4{
    margin: auto;
+}
+    .blockbtn{
+    display: block;
 }
 }
 @media screen and (max-width: 450px){
