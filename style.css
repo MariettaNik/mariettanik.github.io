@@ -773,7 +773,6 @@ body{
     overflow-x: hidden;
 }
 .four{
-    height: 430px;
      margin-top: 50px;
 }
 .four1{
@@ -781,6 +780,7 @@ body{
 }
     .fr{
     height:300px;
+    }
 .next, .prev{
     background-color: transparent;
 }
