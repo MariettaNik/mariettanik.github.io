@@ -13,7 +13,7 @@
 .first1{
     width: 60%;
     height: 720px;
-    background-image: url(1659418031669\ 1.png);
+    background-image: url(../images/1659418031669\ 1.png);
     background-size: cover;
 }
 .first1>h1{
@@ -207,31 +207,31 @@ padding: 30px 0;
 
 
 .f1{
-    background-image: url(f1.png);
+    background-image: url(../images/f1.png);
     background-size: cover;
 }
 .f2{
-    background-image: url(f2.png);
+    background-image: url(../images/f2.png);
     background-size: cover;
 
 }
 .f3{
-    background-image: url(f3.png);
+    background-image: url(../images/f3.png);
     background-size: cover;
 
 }
 .f4{
-    background-image: url(f4.png);
+    background-image: url(../images/f4.png);
     background-size: cover;
 
 }
 .f5{
-    background-image: url(f5.png);
+    background-image: url(../images/f5.png);
     background-size: cover;
 
 }
 .f6{
-    background-image: url(f6.png);
+    background-image: url(../images/f6.png);
     background-size: cover;
 
 }
@@ -274,7 +274,7 @@ padding: 30px 0;
     background-color: #81D8D0;
 }
 .val{
-    background-image: url(val.png);
+    background-image: url(../images/val.png);
     background-size: cover;
 }
 .valtext{
@@ -301,7 +301,7 @@ color: grey;
 .diam1{
     width: 520px;
     height: 550px;
-    background-image: url(diamond.png);
+    background-image: url(../images/diamond.png);
     background-size: cover;
 }
 .diam1>h1{
@@ -359,7 +359,7 @@ margin-left: 50px;
     margin-top: 20px;
 }
 .exp1{
-    background-image: url(exp1.png);
+    background-image: url(../images/exp1.png);
 }
 .exp_button{
     background-color: transparent;
@@ -367,13 +367,13 @@ margin-left: 50px;
     border-bottom: 2px solid grey;
 }
 .exp2{
-    background-image: url(exp2.png);
+    background-image: url(../images/exp2.png);
 }
 .exp3{
-    background-image: url(exp3.png);
+    background-image: url(../images/exp3.png);
 }
 .exp4{
-    background-image: url(exp4.png);
+    background-image: url(../images/exp4.png);
 }
 .exp2>p, .exp3>p, .exp4>p{
    margin-top: 45px;
@@ -425,6 +425,7 @@ margin-left: 50px;
     float: right;
     display: none;
 }
+
 .footer56{
     width: 50%;
     height: 300px;
@@ -463,19 +464,19 @@ margin-left: 5%;
     margin: 10px;
 }
 .fv1{
-    background-image: url(fvec.png);
+    background-image: url(../images/fvec.png);
 }
 .fv2{
-    background-image: url(fvec2.png);
+    background-image: url(../images/fvec2.png);
 }
 .fv3{
-    background-image: url(fvec3.png);
+    background-image: url(../images/fvec3.png);
 }
 .fv4{
-    background-image: url(fvec4.png);
+    background-image: url(../images/fvec4.png);
 }
 .fv5{
-    background-image: url(fvec5.png);
+    background-image: url(../images/fvec5.png);
 }
 .footerline2{
     width: 40%;
@@ -505,7 +506,7 @@ h4{
 }
 button{
     cursor: pointer;
-
+}
 @media screen and (max-width: 982px){
    .menu{
 display: none;
@@ -514,7 +515,8 @@ top: 33px;
 right: 0;
 background-color: #8EDCD5;
 width: 100%;
-z-index: 2;    
+z-index: 2;
+
    }
 ul>li{
     float: none;
@@ -559,7 +561,7 @@ ul>li{
     height: 250px;
     margin: 10px;
    }
-   .third1,.third2{
+   .thitd1,.third2{
     margin: 0;
    }
    .third1{
@@ -574,12 +576,8 @@ ul>li{
    .third2>input{
     width: 100%;
    }
-   /* body{
-    overflow-x: hidden;
-   } */
    .four{
     overflow: hidden;
-    margin-bottom: 10px;
    }
    .four1{
     width: 1200px;
@@ -594,6 +592,7 @@ ul>li{
    }
    .four{
     position: relative;
+    margin-bottom: 10px;
    }
    .prev{
     width: 50px;
@@ -737,7 +736,7 @@ width: 100%;
 }
 .first1{
     height: 400px;
-    background-image: url(gifts_mobile.png);
+    background-image: url(../images/gifts_mobile.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -827,7 +826,7 @@ body{
 }
 .ex>h1{
     margin-top: 30%;
-}   
+}
 .content{
     display: none;
 }
@@ -835,8 +834,9 @@ body{
     width: 90%;
     height: auto;
     padding: 0;
+    margin-left: 0;
 }
- .footer4{
+.footer4{
     display: none;
 }
 .fa-angle-down{
@@ -850,6 +850,7 @@ body{
 .footer6, .footer5{
     height: auto;
 flex-wrap: wrap;
+width: 95%;
 }
 .footer6{
     display: flex;
@@ -866,7 +867,7 @@ flex-wrap: wrap;
 h4{
    margin: auto;
 }
-    .blockbtn{
+.blockbtn{
     display: block;
 }
 }
