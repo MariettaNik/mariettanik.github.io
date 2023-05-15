@@ -27,7 +27,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
     width: 68%;
     height: 200px;
     position: absolute;
-    left: 28%;
+    left: 30%;
 }
 ul{
     list-style-type: none;
@@ -35,7 +35,7 @@ ul{
 }
 li{
     float: left;
-    padding: 20px;
+    padding: 10px;
     overflow: hidden;
 }
 ul>li>a{
