@@ -785,6 +785,9 @@ body{
      margin-top: 10px;
      pointer-events: none;
    }
+    .fr7{
+    font-size: 4vw;
+}
     .arr2{
         display: none;
     }
