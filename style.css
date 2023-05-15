@@ -457,6 +457,9 @@ margin-left: 5%;
     height: 2px;
     background-color: grey;
 }
+input{
+    outline: none;
+}
 .fvector{
     background-color: #8EDCD5;
     width: 30px;
