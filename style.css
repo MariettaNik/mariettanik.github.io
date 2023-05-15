@@ -780,6 +780,9 @@ body{
 .four1{
     height: auto;
 }
+ .f{
+     margin-top: 10px;
+   }
     .arr2{
         display: none;
     }
