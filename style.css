@@ -783,6 +783,7 @@ body{
 }
  .f{
      margin-top: 10px;
+     pointer-events: none;
    }
     .arr2{
         display: none;
