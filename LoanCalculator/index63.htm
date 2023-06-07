@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style64.css">
+</head>
+<body>
+  <div class="demo">
+    <label for="money" class="text">Loan Amount</label><br>
+    <input type="number" id="money"><br>
+   <input type="range" id="moneyrange" min="0" max="10000000" value="0" step="100"><br>
+    <label for="percent" class="text">Interest Rate %</label><br>
+  <input type="number" id="percent"><br>
+   <input type="range" id="percentrange" min="0" max="100" value="0"><br>
+  <select name="" id="term">
+    <option value="" class="text">Loan Term</option>
+<option value="6" class="text">6 months</option>
+<option value="12" class="text">12 months</option>
+<option value="18" class="text">18 months</option>
+<option value="24"class="text">24 months</option>
+<option value="30" class="text">30 months</option>
+<option value="36" class="text">36 months</option>
+<option value="48" class="text">48 months</option>
+<option value="60" class="text">60 months</option>
+</select><br>
+<span class="result">0</span>
+<button type="button" id="graphic" class="text">Graphic</button>
+<div class="graph hidden"></div>
+
+</div>
+   <script src="js/script64.js"></script>
+</body>
+</html>

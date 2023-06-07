@@ -1,0 +1,421 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    box-shadow: 2px 3px 4px black;
+    justify-content: space-between;
+    
+}
+.lc{
+    width: 20%;
+    padding: 10px;
+}
+.menu{
+    width:40%;
+}
+.tel{
+    width: 22%;
+    padding: 10px;
+}
+.tel>p{
+text-align: right;
+
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+ul>li{
+    float: left;
+    padding: 10px 20px 10px 20px;
+}
+ul>li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.home{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+
+}
+.home>h1{
+    padding-top: 180px;
+    font-size: 100px;
+}
+.home>p{
+    font-size: 27px;
+    width: 60%;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 40px;
+}
+.consul{
+    width: 30%;
+    height: 50px;
+    margin-top: 50px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    border: 2px solid rgb(143, 143, 13);
+    font-size: 20px;
+}
+.second{
+    width: 100%;
+    height: 1100px;
+
+}
+.big{
+    width: 70%;
+    margin: auto;
+}
+.btnOpen{
+    background-color: rgb(43, 37, 37);
+    color: white;
+    width:100%;
+    height: 60px;
+    font-size: 22px;
+    padding: 10px;
+    text-align: left;
+}
+.content{
+    background-color: rgb(179, 175, 175);
+    padding: 30px;
+    display: none;
+}
+.fa-solid{
+    float: right;
+}
+.fa-minus{
+    display: none;
+}
+.blockDiv{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+.second>img{
+    margin-left: 41%;
+}
+.second>h1{
+    padding-top: 50px;
+    font-size: 80px;
+    text-align: center;
+}
+.second>p{
+    font-size: 27px;
+    width: 60%;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 40px;
+    margin-left: 20%;
+}
+.about{
+    width: 100%;
+    height: 500px;
+}
+.aboutimg{
+    background-image: url(../images/img1.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+}
+.texts{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(32, 31, 31, 0.8);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.abtext{
+    width: 30%;
+    height: 500px; 
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    
+}
+.abtext>h1{
+font-size: 80px;
+}
+.abtext>p{
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    width: 55%;
+}
+.adv{
+    width: 100%;
+    height: 1250px;
+    text-align: center;
+
+}
+.adtexts>h1{
+    font-size: 50px;
+    padding-top: 150px;
+}
+.adtexts>p{
+    font-size: 25px;
+    padding-top: 40px;
+    width: 30%;
+   margin-left: 35%;
+   line-height: 40px;
+   color: rgb(85, 85, 85);
+}
+.advdiv{
+    width: 75%;
+    height: 700px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 12.5%;
+    margin-top: 100px;
+}
+.advtexts{
+    
+    width: 30%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+ 
+}
+.advim{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+      border-radius: 100%;
+      flex-shrink: 0;
+
+}
+.advimg1{
+    background-image: url(../images/1.png);
+}
+.advimg2{
+    background-image: url(../images/2.png);
+}
+.advimg3{
+    background-image: url(../images/3.png);
+}
+.advimg4{
+    background-image: url(../images/4.png);
+}
+.advimg5{
+    background-image: url(../images/5.png);
+}
+.advimg6{
+    background-image: url(../images/6.png);
+}
+.advtext>h1{
+    margin-top: 40px;
+}
+.advtext>p{
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgb(85, 85, 85);
+}
+.prof{
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/prof1.jpg);
+    background-size: cover;
+}
+.proftext{
+    width: 30%;
+    height: 66%;
+    margin-left: 50%;
+}
+.proftext>h1{
+    color: white;
+    font-size: 30px;
+    padding-top: 370px; 
+}
+.proftext>p{
+    color: rgb(223, 223, 223);
+    font-size: 20px;
+}
+.proftext>p:last-child{
+    margin-top: 20px;
+}
+#contacts{
+    width: 100%;
+    height: 800px;
+}
+.context{
+    text-align: center;
+    margin-top: 200px;
+}
+.context>h1{
+font-size: 40px;
+}
+.context>p{
+    margin-top: 40px;
+    font-size: 25px;
+    color: rgb(85, 85, 85);
+}
+.adress{
+    width: 50%;
+    height: 500px;
+    margin-left: 30%;
+    margin-top: 50px;
+  
+}
+input, textarea{
+    width: 80%;
+    height: 100px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+    line-height: 30px;
+}
+textarea{
+    line-height: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.adress>button{
+    margin-top: 30px;
+    padding: 15px 60px;
+    font-size: 20px;
+    color: white;
+   background-color: #bd9840;
+   margin-left: 28%;
+   border: none;
+}
+@media screen and (max-width: 982px){
+    .lc, .tel{
+        display: none;
+    }
+    .menu, .menu>ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about, .texts, .aboutimg{
+        height: auto;
+    }
+    .texts{
+        margin: 0;
+    }
+    .abtext{
+        width: 33%;
+    }
+    .abtext>h1{
+    font-size: 50px;
+    }
+    .abtext>p{
+        width: 90%;
+    }
+    .adv, .advtexts, .advdiv{
+        height: auto;
+    }
+    .advdiv{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .advtexts{
+        width: 45%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .adtexts>p{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .proftext{
+        width: 50%;
+        height: auto;
+    }
+    .proftext>p{
+        background-color: rgba(0, 0, 0, 0.384);
+    }
+}
+@media screen and (max-width: 600px){
+    .home>h1, .second>h1, .adtexts>h1{
+        font-size: 40px;
+    }
+    .consul{
+        width: 70%;
+    }
+    .second>img{
+        margin-left: 20%;
+    }
+    .second{
+        height: auto;
+    }
+    .big{
+        width: 100%;
+    }
+.texts{
+    flex-wrap: wrap;
+}
+    .abtext{
+    width: 100%;
+}
+.abtext{
+    height: auto;
+    padding: 20px;
+}
+.advtexts{
+    width: 90%;
+}
+.adtexts>h1{
+    padding-top: 30px;
+}
+.prof{
+    background-size: 100%;
+    background-repeat: no-repeat;
+   height: auto;
+}
+.proftext>h1{
+    padding-top: 50px;
+    font-size: 5vw;
+}
+.proftext>p{
+    font-size: 4vw;
+}
+#contacts{
+    height: auto;
+}
+.context{
+    height: auto;
+    margin-top: 30px;
+    margin: 10px;
+}
+.adress{
+    width: 100%;
+    margin-left: 0;
+}
+input, textarea{
+    width: 95%;
+    line-height: 23px;
+    margin-left: 10px;
+}
+.adress>button{
+    margin-left: 0;
+    width: 70%;
+    margin: 10%;
+}
+    }
+

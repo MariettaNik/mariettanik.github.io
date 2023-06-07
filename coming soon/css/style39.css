@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee8dc;
+}
+.bg{
+    height: 600px;
+    background-image: url(../images/image-25-05-23-09-12.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    margin: auto;
+
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: #33adbb;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.flex-div{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    justify-content: center;
+    color: #34c5d6;
+    position: absolute;
+    top: 50px;
+    left: 0;
+
+
+}
+#day1,#hour1,#minutes1,#sec{
+    margin: 10px;
+    font-size: 150px;
+    background-color: #fcca6d;
+}
+.sign1{
+    font-size: 150px;
+    animation-name: signmove;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+.imgsoon{
+    width: 100%;
+    height: 130px;
+    background-color: #33adbb;
+    display: none;
+}
+@keyframes signmove{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 600px){
+    .time>h1{
+        display: none;
+    }
+    .bg{
+        height: 200px;
+        background-size: cover;
+        width: 100%;
+    }
+    #day1,#hour1,#minutes1,#sec, .sign1{
+        font-size: 50px;
+        height: 60px;
+    }
+
+    .imgsoon{
+        display: block;
+        color: #fcca6d;
+        background-color: #eee8dc;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+}
+ 

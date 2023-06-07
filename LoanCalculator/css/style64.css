@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e2b291;
+}
+input, select{
+    width: 40%;
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #facdaf;
+    height: 50px;
+    font-size: 20px;
+    padding: 0 30px;
+}
+/* select{
+padding-right: 30px;
+} */
+input[type=range]{
+    -webkit-appearance: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 10px;
+    background: #d3aa8e;
+    border: none;
+    border-radius: 20px;
+    /* margin-right: 30px; */
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #866c5a;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ddb498;
+}
+.text{
+    color: #977e6e;
+    font-size: 25px;
+}
+label{
+    padding-left: 30px;
+}
+.graph{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.39);
+    overflow: auto;
+
+}
+.hidden{
+   display: none; 
+}
+.close{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#graphic{
+background-color: #aa856d;
+border: none;
+border-radius: 30px;
+font-size: 20px;
+color: white;
+padding: 10px 30px;
+box-shadow: 2px 4px 8px grey;
+margin-left: 20px;
+cursor: pointer;
+}
+#graphic:hover{
+    background-color: #e2b291;
+}
+.graphicDiv{
+    width: 50%;
+    margin: 10px;
+}
+table,td,th{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 10px 20px;
+}
+table{
+    width: 100%;
+}
+th{
+    background-color:#aa856d;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: rgb(226, 219, 219);
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+.demo{
+    width: 100%;
+    height: 600px;
+   background-image: url(../images/loanCalculator.jpeg);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+ .result{
+    width: 100px;
+    height: 50px;
+    color: #3a2e26;
+    padding-left: 20px;
+    font-size: 23px;
+    margin: 10px;
+    padding-top: 20px;
+} 
+@media screen and (max-width: 600px){
+    input, select{
+        width: 80%;
+    }
+}
