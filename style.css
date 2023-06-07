@@ -47,7 +47,7 @@ header{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-image: url(../images/MariettaNik.jpeg);
+    background-image: url(MariettaNik.jpeg);
     background-size: cover;
     margin: auto;
 }
@@ -96,7 +96,7 @@ main{
 #homeFixedImg{
     width: 100%;
     height: 700px;
-    background-image: url(../images/developer.jpg);
+    background-image: url(developer.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     position: fixed;
@@ -160,7 +160,7 @@ main{
 #myPhoto{
     width: 30%;
     height: 400px;
-    background-image: url(../images/MariettaNikoyan.jpeg);
+    background-image: url(MariettaNikoyan.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
 }
