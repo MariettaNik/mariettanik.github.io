@@ -433,6 +433,9 @@ footer{
     .hidden{
        display: none;
     }
+    .tel{
+        font-size: 20px;
+    }
     main{
         width: 100%;
         float: none;
